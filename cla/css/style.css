@@ -73,7 +73,9 @@ h6 {
 }
 
 h1 {
-     font-size: 24px;
+     font-size: 34px;
+     color: #40c90a;
+     font-weight: bold;
 }
 
 h2 {
@@ -381,7 +383,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/ColourLab/page_images/Image_2.jpg);
      background-repeat: no-repeat;
      min-height: 900px;
      background-size: 100% 100%;
@@ -396,7 +398,7 @@ ul.btn li:last-child {
      content: "";
      width:50px; 
      height:40px;
-     background: url(../images/cross.png);
+     background: url();
      background-repeat: no-repeat;
      bottom: -38px;
      right: 38px;
@@ -406,7 +408,7 @@ ul.btn li:last-child {
      content: "";
      width:50px; 
      height:40px;
-     background: url(../images/cross.png);
+     background: url();
      background-repeat: no-repeat;
      bottom: -38px;
      left: 38px;
@@ -880,6 +882,7 @@ ul.btn li:last-child {
 .logo1 {
      float: left;
      margin-top: -30px;
+     color: #F0FFFF;
 }
 
 ul.social_icon {
