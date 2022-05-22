@@ -56,6 +56,10 @@ a {
      transition: all .3s ease-in-out;
 }
 
+div.a {
+    height:100px;
+}
+
 h1,
 h2,
 h3,
@@ -322,7 +326,7 @@ ul.btn li:last-child {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: rgb(8, 233, 20);
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -330,14 +334,14 @@ ul.btn li:last-child {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #51fe44;
+     color: #d80a0a;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #51fe44;
+     color: #0d30f5;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -383,15 +387,15 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/ColourLab/page_images/Image_2.jpg);
+     background: url(../images/ColourLab/page_images/Image_4.png);
      background-repeat: no-repeat;
-     min-height: 900px;
      background-size: 100% 100%;
      display: flex;
      justify-content: center;
      align-content: center;
      align-items: center;
      position: relative;
+     height:550px;
 }
 .banner_main::before {
      position: absolute;
@@ -413,6 +417,39 @@ ul.btn li:last-child {
      bottom: -38px;
      left: 38px;
 }
+
+.banner_main2 {
+    background: url(../images/ColourLab/page_images/Image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height:550px;
+}
+.banner_main2::before {
+    position: absolute;
+    content: "";
+    width:50px; 
+    height:40px;
+    background: url();
+    background-repeat: no-repeat;
+    bottom: -38px;
+    right: 38px;
+}
+.banner_main2::after {
+    position: absolute;
+    content: "";
+    width:50px; 
+    height:40px;
+    background: url();
+    background-repeat: no-repeat;
+    bottom: -38px;
+    left: 38px;
+}
+
 .text-bg {
      text-align: left;
 }
