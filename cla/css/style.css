@@ -417,18 +417,36 @@ ul.btn li:last-child {
      bottom: -38px;
      left: 38px;
 }
+.paint_box {
+     width: 100%;
+     height: 200px;
+     border: 5px dashed #f7a239;
+}
+
+.paint_box.img {
+     width: 150%;
+     height: 100%;
+}
 
 .banner_main2 {
-    background: url(../images/ColourLab/page_images/Image_2.jpg);
+    background-image: url(../images/ColourLab/page_images/Image_2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
+    background-size: contain;
+    display: contain;
     justify-content: center;
     align-content: center;
     align-items: center;
     position: relative;
-    height:550px;
+    height: 1000px;
+    width: 100%;
 }
+
+.banner_main2.img {
+     height: 100%;
+     width: 100%;
+ }
+
+
 .banner_main2::before {
     position: absolute;
     content: "";
@@ -896,13 +914,26 @@ ul.btn li:last-child {
 
 
 /** footer **/
-
 .footer {
      background: url(..//images/ColourLab/page_images/Image_3.jpg);
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding-top: 115px;
      text-align: center;
+}
+
+.footer .row {
+     /* display: -ms-flexbox;*/
+        display: flex;
+     /* -ms-flex-wrap: wrap;*/
+     /* flex-wrap: wrap;*/
+     margin-right:-40px;
+     padding-left:130px;
+}
+
+.footer .column {
+     flex: 20%;     
+     justify-content: center;
 }
 
 .footer .titlepage {
