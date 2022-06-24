@@ -431,13 +431,14 @@ ul.btn li:last-child {
 .banner_main2 {
     background-image: url(../images/ColourLab/page_images/Image_2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     display: contain;
     justify-content: center;
     align-content: center;
     align-items: center;
     position: relative;
-    height: 1000px;
+    height: 100%;
     width: 100%;
 }
 
@@ -941,22 +942,18 @@ ul.btn li:last-child {
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding-top: 115px;
-     text-align: center;
 }
 
 .footer .row1 {
-    display: relative;
-    width: 100%;
+    justify-content: center;
+    display: flex;
+    width: 100%;    
 }
 
 .footer .row {
-     /* display: -ms-flexbox;*/
-        display: flex;
-     /* -ms-flex-wrap: wrap;*/
-     /* flex-wrap: wrap;*/
-     margin-right:150px;
-     margin-left:150px;
-
+    justify-content: center;
+    display: flex;
+    width: 100%;
 }
 
 .footer .column {
@@ -986,6 +983,8 @@ ul.social_icon {
      width: 100%;
      float: left;
      text-align: left;
+     justify-content: center;
+     display: flex;
 }
 
 ul.social_icon li {
@@ -1025,11 +1024,20 @@ ul.social_icon li a:hover {
      color: rgb(255, 255, 255);   
 }
 
+.about_us {
+    justify-content: center;
+    display: flex;
+    width:100%;
+}
+
 .about_us li {
      color: #fff;
      font-size: 17px;
      text-align: left;
      padding-top: 25px;
+     justify-content: center;
+     display: flex;
+     width:100%;
 }
 
 .conta li {
