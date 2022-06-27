@@ -480,6 +480,7 @@ ul.btn li:last-child {
     bottom: -38px;
     right: 38px;
 }
+
 .banner_main2::after {
     position: absolute;
     content: "";
@@ -491,8 +492,53 @@ ul.btn li:last-child {
     left: 38px;
 }
 
+.banner_main3 {
+    background-image: url(../images/ColourLab/page_images/Image_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: contain;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.banner_main3 .prime_row_right {
+    background-image: url(../images/ColourLab/page_images/Image_5.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center;
+    display: contain;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    width: 50%;
+    border: 5px solid rgb(85, 21, 206);
+}
+
+.banner_main3 .prime_row {
+    display: flex;
+    justify-content: center;  
+    align-content: center;
+    align-items: center;
+    position: relative;
+    width:100%;
+}
+
+.banner_main3 h3 {
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    border: 5px solid rgb(85, 21, 206);
+}
+
 .text-bg {
-     text-align: left;
+    text-align: left;
 }
 
 .text-bg h1 {
