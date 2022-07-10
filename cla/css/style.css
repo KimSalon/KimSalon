@@ -504,12 +504,13 @@ ul.btn li:last-child {
     position: relative;
     height: 100%;
     width: 100%;
+    padding: 50px;
 }
 
 .banner_main3 .prime_row_right {
     background-image: url(../images/ColourLab/page_images/Image_5.jpg);
     background-repeat: no-repeat;
-    background-size: fit;
+    background-size: 700px;
     background-position: center;
     display: contain;
     justify-content: center;
@@ -535,6 +536,40 @@ ul.btn li:last-child {
     line-height: 3;
     text-align: center;
     border: 5px solid rgb(85, 21, 206);
+}
+
+.banner_main4 {
+    background-image: url(../images/ColourLab/page_images/LGreyBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: contain;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    border: 5px solid rgb(85, 21, 206);
+}
+
+.banner_main4 li {
+    width: 100%;
+}
+
+.banner_main4 img {
+    display: contain;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    margin: 0 auto;    
+}
+
+.banner_main4 li h3 {
+    text-align: center;
 }
 
 .text-bg {
