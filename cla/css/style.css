@@ -1,11 +1,11 @@
 .header-style {
-  position:relative; 
+  position: relative;
 }
 
 .header-style.headerformat h3 {
   margin-top: 10px;
   color: rgb(64, 201, 10);
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .body-style {
@@ -14,9 +14,26 @@
   font-weight: bold;
 }
 
-.footer-style {
-  
+.footer-style{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
 }
+
+.footer-style.rights-style {
+ font-size: 10px;
+}
+
+.footer-style.icons-style {
+
+}
+
+.footer-style.icons-style a {
+  padding-right: 1em;
+  font-size: 30px;
+}
+
 
 
 .topnav {
@@ -51,9 +68,9 @@
   color: white;
 }
 
-.bodybgimage {  
+.bodybgimage {
   position: relative;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -61,10 +78,10 @@
 .bodybgimage::before {
   content: '';
   position: absolute;
-  top:0px;
-  bottom:0px;
-  right:0px;
-  left:0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
   background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
   background-color: rgba(54, 25, 25, .00004);
   height: auto;
@@ -76,7 +93,7 @@
 
 .footerbgimage {
   position: relative;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -84,10 +101,10 @@
 .footerbgimage::before {
   content: '';
   position: absolute;
-  top:0px;
-  bottom:0px;
-  right:0px;
-  left:0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
   background: url('../images/ColourLab/page_images/Image_1.jpg') 50% 50% no-repeat;
   background-color: rgba(54, 25, 25, .00004);
   height: auto;
