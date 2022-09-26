@@ -2,7 +2,7 @@
   position:relative; 
 }
 
-.header-style.headerformat h1 {
+.header-style.headerformat h3 {
   margin-top: 10px;
   color: rgb(64, 201, 10);
   font-weight: bold;  
