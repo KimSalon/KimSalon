@@ -7,7 +7,8 @@
   color: rgb(64, 201, 10);
   font-weight: bold;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .body-style {
@@ -32,19 +33,30 @@
   font-size: 30px;
 }
 
-
-
 .topnav {
   overflow: hidden;
   background-color: #9eb7b5;
   position: relative;
 }
 
-.topnav #myLinks {
+#myLinks {
   display: none;
 }
 
-.topnav a {
+.topnav.header-2 a.icon {
+  float: right;
+  font-size: 30px;
+}
+
+.topnav.header-2 a:hover {
+  background-color: rgb(243, 242, 242);
+  color: black;
+}
+
+
+
+/*
+#myLinks a {
   float: left;
   color: rgb(0, 0, 0);
   padding: 14px 16px;
@@ -60,6 +72,7 @@
   background-color: rgb(243, 242, 242);
   color: black;
 }
+*/
 
 .active {
   background-color: #04AA6D;
