@@ -35,7 +35,12 @@
 }
 
 .footer-style.rights-style {
- font-size: 10px;
+  font-size: 13px;
+  margin-top:3em;
+}
+
+.footer-style.icons-style{
+  margin-left: 1em;
 }
 
 .footer-style.icons-style a {
@@ -81,6 +86,15 @@
   margin-top: 20px;
 }
 
+.body-style.images-style{  
+  padding: 2em;
+}
+
+.body-style.images-style img {  
+  max-width: 80%;
+  height: auto;
+}
+
 .bodybgimage::before {
   content: '';
   position: absolute;
@@ -102,6 +116,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.store-hours {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
 }
 
 .footerbgimage::before {
