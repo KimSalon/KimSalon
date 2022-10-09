@@ -11,6 +11,16 @@
   margin-bottom: 2em;
 }
 
+.header-style.navbar-options {
+  background-color: rgb(1, 177, 89);
+  padding: 0px 0px 0px 70px;
+}
+
+.header-style.navbar-options a {
+  color: rgb(255, 255, 255);
+}
+
+
 .body-style {
   color: rgb(0, 204, 255);
   text-align: center;
@@ -53,27 +63,6 @@
   color: black;
 }
 
-
-
-/*
-#myLinks a {
-  float: left;
-  color: rgb(0, 0, 0);
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a.icon {
-  float: right;
-}
-
-.topnav a:hover {
-  background-color: rgb(243, 242, 242);
-  color: black;
-}
-*/
-
 .active {
   background-color: #04AA6D;
   color: white;
@@ -84,6 +73,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+}
+
+
+.body-style.top-message p {  
+  margin-top: 20px;
 }
 
 .bodybgimage::before {
