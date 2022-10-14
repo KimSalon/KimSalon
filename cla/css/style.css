@@ -4,15 +4,16 @@
 
 .header-style.headerformat h1 {
   margin-top: 10px;
-  color: rgb(64, 201, 10);
+  color: rgb(1, 150, 130);
   font-weight: bold;
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header-style.navbar-options {
-  background-color: rgb(1, 177, 89);
+  background-color: rgb(155, 179, 170);
   padding: 0px 0px 0px 70px;
 }
 
@@ -20,6 +21,13 @@
   color: rgb(255, 255, 255);
 }
 
+#navbarNav {
+  padding: 1em;
+}
+
+.button-move {
+  margin-right:1em;
+}
 
 .body-style {
   color: rgb(0, 204, 255);
