@@ -21,12 +21,35 @@
   color: rgb(255, 255, 255);
 }
 
+.header-style.navbar-options a:hover {
+  color: rgb(1, 139, 173);
+}
+
+.navbar-nav a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav a:hover {
+  color: rgb(1, 139, 173);
+}
+
 #navbarNav {
-  padding: 1em;
+  padding: 1em;  
+  position:absolute;
+  background-color: rgb(134, 134, 134);
+  width:100%
+}
+
+.navbar-nav{
+  float:right; 
 }
 
 .button-move {
   margin-right:1em;
+}
+
+.navbar-nav > .active > a {
+  color: rgb(1, 241, 241);    
 }
 
 .body-style {
@@ -56,31 +79,6 @@
   font-size: 30px;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #9eb7b5;
-  position: relative;
-}
-
-#myLinks {
-  display: none;
-}
-
-.topnav.header-2 a.icon {
-  float: right;
-  font-size: 30px;
-}
-
-.topnav.header-2 a:hover {
-  background-color: rgb(243, 242, 242);
-  color: black;
-}
-
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 .bodybgimage {
   position: relative;
   display: flex;
@@ -88,7 +86,6 @@
   align-items: center;
   background-repeat: no-repeat;
 }
-
 
 .body-style.top-message p {  
   margin-top: 20px;
