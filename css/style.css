@@ -2,9 +2,9 @@
   position: relative;
 }
 
-.header-style.headerformat h1 {
+.header-style.headerformat {
   margin-top: 10px;
-  color: rgb(1, 150, 130);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
   margin-top: 2em;
@@ -26,18 +26,19 @@
 }
 
 .navbar-nav a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 68, 255);
+  font-weight: bolder;
 }
 
 .navbar-nav a:hover {
-  color: rgb(1, 139, 173);
+  color: rgb(173, 93, 1);
 }
 
 #navbarNav {
-  padding: 1em;  
+  padding-right: 10px;
   position:absolute;
-  background-color: rgb(134, 134, 134);
-  width:100%
+  background-color: rgb(255, 255, 255);
+  width:100%; 
 }
 
 .navbar-nav{
@@ -49,13 +50,14 @@
 }
 
 .navbar-nav > .active > a {
-  color: rgb(1, 241, 241);    
+  color: rgb(241, 145, 1);    
 }
 
 .body-style {
-  color: rgb(0, 204, 255);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-weight: bold;
+  background-blend-mode:darken;
 }
 
 .footer-style{
@@ -80,11 +82,10 @@
 }
 
 .bodybgimage {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-repeat: no-repeat;
+  background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
+  background-color: rgba(255, 0, 0, 0); 
+  background-size: cover;
 }
 
 .body-style.top-message p {  
@@ -95,26 +96,18 @@
   padding: 2em;
 }
 
+.body-style.product-style{  
+  color: rgb(85, 85, 85);
+}
+
 .body-style.images-style img {  
   max-width: 80%;
   height: auto;
 }
 
 .bodybgimage::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
-  background-color: rgba(54, 25, 25, .00004);
-  height: auto;
-  width: 100%;
-  margin: 0;
   opacity: 0.2;
 }
-
 
 .footerbgimage {
   position: relative;
