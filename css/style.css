@@ -1,0 +1,141 @@
+.header-style {
+  position: relative;
+}
+
+.header-style.headerformat {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-style.navbar-options {
+  background-color: rgb(155, 179, 170);
+  padding: 0px 0px 0px 70px;
+}
+
+.header-style.navbar-options a {
+  color: rgb(255, 255, 255);
+}
+
+.header-style.navbar-options a:hover {
+  color: rgb(1, 139, 173);
+}
+
+.navbar-nav a {
+  color: rgb(0, 68, 255);
+  font-weight: bolder;
+}
+
+.navbar-nav a:hover {
+  color: rgb(173, 93, 1);
+}
+
+#navbarNav {
+  padding-right: 10px;
+  position:absolute;
+  background-color: rgb(255, 255, 255);
+  width:100%; 
+}
+
+.navbar-nav{
+  float:right; 
+}
+
+.button-move {
+  margin-right:1em;
+}
+
+.navbar-nav > .active > a {
+  color: rgb(241, 145, 1);    
+}
+
+.body-style {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  background-blend-mode:darken;
+}
+
+.footer-style{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+}
+
+.footer-style.rights-style {
+  font-size: 13px;
+  margin-top:3em;
+}
+
+.footer-style.icons-style{
+  margin-left: 1em;
+}
+
+.footer-style.icons-style a {
+  padding-right: 1em;
+  font-size: 30px;
+}
+
+.bodybgimage {
+  background-repeat: no-repeat;
+  background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
+  background-color: rgba(255, 0, 0, 0); 
+  background-size: cover;
+}
+
+.body-style.top-message p {  
+  margin-top: 20px;
+}
+
+.body-style.images-style{  
+  padding: 2em;
+}
+
+.body-style.product-style{  
+  color: rgb(85, 85, 85);
+}
+
+.body-style.images-style img {  
+  max-width: 80%;
+  height: auto;
+}
+
+.bodybgimage::before {
+  opacity: 0.2;
+}
+
+.footerbgimage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-hours {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+}
+
+.footerbgimage::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: url('../images/ColourLab/page_images/Image_1.jpg') 50% 50% no-repeat;
+  background-color: rgba(54, 25, 25, .00004);
+  height: auto;
+  width: 100%;
+  margin: 0;
+  opacity: 0.1;
+}
