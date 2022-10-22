@@ -54,7 +54,7 @@
 }
 
 .body-style {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-weight: bold;
   background-blend-mode:darken;
@@ -83,9 +83,11 @@
 
 .bodybgimage {
   background-repeat: no-repeat;
-  background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
+  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% 50% no-repeat;
   background-color: rgba(255, 0, 0, 0); 
-  background-size: cover;
+  background-size: fit;
+  max-width: 100%;
+  text-align: center;
 }
 
 .body-style.top-message p {  
