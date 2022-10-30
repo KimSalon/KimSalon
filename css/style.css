@@ -25,6 +25,12 @@
   color: rgb(1, 139, 173);
 }
 
+.headerimage{
+  height:100%;
+  width:50%;
+  object-fit:cover;
+}
+
 .navbar-nav a {
   color: rgb(0, 68, 255);
   font-weight: bolder;
@@ -60,34 +66,13 @@
   background-blend-mode:darken;
 }
 
-.footer-style{
-  display: flex;
-  justify-content: center;
-  color: rgb(0, 204, 255);
-  font-weight: bold;
-}
-
-.footer-style.rights-style {
-  font-size: 13px;
-  margin-top:3em;
-}
-
-.footer-style.icons-style{
-  margin-left: 1em;
-}
-
-.footer-style.icons-style a {
-  padding-right: 1em;
-  font-size: 30px;
-}
-
 .bodybgimage {
   background-repeat: no-repeat;
   background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% 50% no-repeat;
   background-color: rgba(255, 0, 0, 0); 
   background-size: fit;
-  max-width: 100%;
   text-align: center;
+  width:100%;
 }
 
 .body-style.top-message p {  
@@ -111,8 +96,15 @@
   opacity: 0.2;
 }
 
+.footer-style{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+}
+
 .footerbgimage {
-  position: relative;
+  position:absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,16 +120,10 @@
 }
 
 .footerbgimage::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
   background: url('../images/ColourLab/page_images/Image_1.jpg') 50% 50% no-repeat;
   background-color: rgba(54, 25, 25, .00004);
   height: auto;
-  width: 100%;
-  margin: 0;
+  width:auto;
   opacity: 0.1;
+  object-fit: contain;
 }
