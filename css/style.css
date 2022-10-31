@@ -96,11 +96,22 @@
   opacity: 0.2;
 }
 
-.footer-style{
-  display: flex;
+.footer-style {
   justify-content: center;
+  text-align: center;
   color: rgb(0, 204, 255);
   font-weight: bold;
+  width:100%;
+  font-size:150%;
+}
+
+.icons-style {
+  padding: 5%;
+}
+
+.icons-style a {
+  padding: 2%;
+  font-size:200%;
 }
 
 .footerbgimage {
@@ -108,6 +119,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .store-hours {
