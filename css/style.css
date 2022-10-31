@@ -59,6 +59,10 @@
   color: rgb(241, 145, 1);    
 }
 
+.list-group {
+  list-style: none;
+}
+
 .body-style {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -67,12 +71,22 @@
 }
 
 .bodybgimage {
-  background-repeat: no-repeat;
-  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% 50% no-repeat;
+  position: relative;
+}
+
+.bodybgimage::before {
+  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% no-repeat;
   background-color: rgba(255, 0, 0, 0); 
-  background-size: fit;
-  text-align: center;
-  width:100%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 105%;
+  width: 100%;
+  opacity: 0.2;
+  object-fit: cover;
 }
 
 .body-style.top-message p {  
@@ -90,10 +104,7 @@
 .body-style.images-style img {  
   max-width: 80%;
   height: auto;
-}
-
-.bodybgimage::before {
-  opacity: 0.2;
+  object-fit: fit;
 }
 
 .footer-style {
@@ -102,7 +113,7 @@
   color: rgb(0, 204, 255);
   font-weight: bold;
   width:100%;
-  font-size:150%;
+  font-size: 1em;
 }
 
 .icons-style {
@@ -111,15 +122,26 @@
 
 .icons-style a {
   padding: 2%;
-  font-size:200%;
+  font-size:2em;
 }
 
-.footerbgimage {
-  position:absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footerbgimage {  
+  position: relative;
+}
+
+.footerbgimage::before {  
+  background: url(../images/ColourLab/page_images/Image_1.jpg) 50% no-repeat;
+  background-color: rgba(54, 25, 25, .00004);
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 105%;
   width: 100%;
+  opacity: 0.1;
+  object-fit: fit;
 }
 
 .store-hours {
@@ -129,13 +151,4 @@
   padding: 2em;
   color: rgb(0, 204, 255);
   font-weight: bold;
-}
-
-.footerbgimage::before {
-  background: url('../images/ColourLab/page_images/Image_1.jpg') 50% 50% no-repeat;
-  background-color: rgba(54, 25, 25, .00004);
-  height: auto;
-  width:auto;
-  opacity: 0.1;
-  object-fit: contain;
 }
