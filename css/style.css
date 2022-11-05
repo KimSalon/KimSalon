@@ -3,13 +3,13 @@
 }
 
 .header-style.headerformat {
-  margin-top: 10px;
+  margin-top: 5%;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 5%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
 }
 
 .header-style.navbar-options {
@@ -26,9 +26,8 @@
 }
 
 .headerimage{
-  height:100%;
+  height:auto;
   width:50%;
-  object-fit:cover;
 }
 
 .navbar-nav a {
@@ -42,9 +41,9 @@
 
 #navbarNav {
   padding-right: 10px;
-  position:absolute;
-  background-color: rgb(255, 255, 255);
-  width:100%; 
+  position:static;
+  background-color: rgb(255, 0, 0);
+  width:100%;   
 }
 
 .navbar-nav{
@@ -72,11 +71,13 @@
 
 .bodybgimage {
   position: relative;
+  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% no-repeat;
+  background-color: rgba(255, 0, 0, 0); 
+  width:100%;
+  object-fit: fit;
 }
 
 .bodybgimage::before {
-  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% no-repeat;
-  background-color: rgba(255, 0, 0, 0); 
   content: '';
   position: absolute;
   top: 0px;
@@ -86,7 +87,7 @@
   height: 105%;
   width: 100%;
   opacity: 0.2;
-  object-fit: cover;
+  object-fit: fit;
 }
 
 .body-style.top-message p {  
@@ -116,6 +117,15 @@
   font-size: 1em;
 }
 
+.footer-header h1 {
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+  width:100%;
+  font-size: 5vw;
+}
+
 .icons-style {
   padding: 5%;
 }
@@ -126,12 +136,16 @@
 }
 
 .footerbgimage {  
-  position: relative;
+  position: absolute;
+  background: url(../images/ColourLab/page_images/Image_1.jpg) 20% 20% no-repeat;
+  background-color: rgba(54, 25, 25, .00004);
+  background-size:100%;
+  object-fit:fit;
+  width: 100%;
 }
 
+/*
 .footerbgimage::before {  
-  background: url(../images/ColourLab/page_images/Image_1.jpg) 50% no-repeat;
-  background-color: rgba(54, 25, 25, .00004);
   content: '';
   position: absolute;
   top: 0px;
@@ -140,9 +154,9 @@
   left: 0px;
   height: 105%;
   width: 100%;
-  opacity: 0.1;
-  object-fit: fit;
+  opacity: 0.2;
 }
+*/
 
 .store-hours {
   list-style-type: none;
