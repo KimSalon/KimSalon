@@ -3,13 +3,13 @@
 }
 
 .header-style.headerformat {
-  margin-top: 10px;
+  margin-top: 5%;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 5%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
 }
 
 .header-style.navbar-options {
@@ -37,8 +37,8 @@
 #navbarNav {
   padding-right: 10px;
   position:absolute;
-  background-color: rgb(255, 255, 255);
-  width:100%; 
+  width:100%;   
+  z-index:999999;
 }
 
 .navbar-nav{
@@ -53,39 +53,36 @@
   color: rgb(241, 145, 1);    
 }
 
+.list-group {
+  list-style: none;
+}
+
 .body-style {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-weight: bold;
   background-blend-mode:darken;
 }
 
-.footer-style{
-  display: flex;
-  justify-content: center;
-  color: rgb(0, 204, 255);
-  font-weight: bold;
-}
-
-.footer-style.rights-style {
-  font-size: 13px;
-  margin-top:3em;
-}
-
-.footer-style.icons-style{
-  margin-left: 1em;
-}
-
-.footer-style.icons-style a {
-  padding-right: 1em;
-  font-size: 30px;
-}
-
 .bodybgimage {
-  background-repeat: no-repeat;
-  background: url('../images/ColourLab/page_images/Image_2.jpg') 50% 50% no-repeat;
+  position: relative;
+  background: url('../images/ColourLab/page_images/Image_2_1.jpg') 50% no-repeat;
   background-color: rgba(255, 0, 0, 0); 
-  background-size: cover;
+  width:100%;
+  object-fit: fit;
+}
+
+.bodybgimage::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 105%;
+  width: 100%;
+  opacity: 0.2;
+  object-fit: fit;
 }
 
 .body-style.top-message p {  
@@ -103,18 +100,58 @@
 .body-style.images-style img {  
   max-width: 80%;
   height: auto;
+  object-fit: fit;
 }
 
-.bodybgimage::before {
+.footer-style {
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+  width:100%;
+  font-size: 1em;
+}
+
+.footer-header h1 {
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-weight: bold;
+  width:100%;
+  font-size: 5vw;
+}
+
+.icons-style {
+  padding: 5%;
+}
+
+.icons-style a {
+  padding: 2%;
+  font-size:2em;
+}
+
+.footerbgimage {  
+  position: relative;
+  background-color: rgba(54, 25, 25, .00004);
+  background-size:100%;
+  width: 100%;
+  height:auto;
+}
+
+
+/*
+.footerbgimage::before {  
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 105%;
+  width: 100%;
   opacity: 0.2;
 }
-
-.footerbgimage {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+*/
 
 .store-hours {
   list-style-type: none;
@@ -123,19 +160,4 @@
   padding: 2em;
   color: rgb(0, 204, 255);
   font-weight: bold;
-}
-
-.footerbgimage::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  background: url('../images/ColourLab/page_images/Image_1.jpg') 50% 50% no-repeat;
-  background-color: rgba(54, 25, 25, .00004);
-  height: auto;
-  width: 100%;
-  margin: 0;
-  opacity: 0.1;
 }

@@ -1,0 +1,32 @@
+@media (min-width: 1000px) {
+    .footer-header-res h1 {
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 204, 255);
+        font-weight: bold;
+        width:100%;
+        font-size: 4rem;
+      }
+
+      .headerimage img {
+        height:20rem;
+        width: 50rem;
+      }
+}
+
+@media (max-width: 1000px) {
+  .footer-header-res h1 {
+      justify-content: center;
+      text-align: center;
+      color: rgb(0, 204, 255);
+      font-weight: bold;
+      width:100%;
+      font-size: 2rem;
+    }
+
+    .headerimage img {
+      height:8rem;
+      width: 21rem;
+      background-color: red;
+    }
+}
