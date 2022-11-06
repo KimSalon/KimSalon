@@ -25,11 +25,6 @@
   color: rgb(1, 139, 173);
 }
 
-.headerimage{
-  height:auto;
-  width:50%;
-}
-
 .navbar-nav a {
   color: rgb(0, 68, 255);
   font-weight: bolder;
@@ -136,13 +131,13 @@
 }
 
 .footerbgimage {  
-  position: absolute;
-  background: url(../images/ColourLab/page_images/Image_1.jpg) 20% 20% no-repeat;
+  position: relative;
   background-color: rgba(54, 25, 25, .00004);
   background-size:100%;
-  object-fit:fit;
   width: 100%;
+  height:auto;
 }
+
 
 /*
 .footerbgimage::before {  
