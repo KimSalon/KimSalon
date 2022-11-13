@@ -1,3 +1,4 @@
+/* For Resolutions above 1080p*/
 @media (min-width: 1000px) {
     .footer-header-res h1 {
         justify-content: center;
@@ -12,8 +13,21 @@
         height:20rem;
         width: 50rem;
       }
+
+      .main-images{
+        height:auto;
+        width: 20%;
+        padding-top: 100px;
+        color:rgb(0, 247, 255);
+      }
+
+      .main-images img{
+        height:auto;
+        width: 100%;
+      }
 }
 
+/* For Resolutions below 1080p*/
 @media (max-width: 1000px) {
   .footer-header-res h1 {
       justify-content: center;
@@ -29,4 +43,17 @@
       width: 21rem;
       background-color: red;
     }
+
+    .main-images{
+      height:auto;
+      width: 100%;
+      padding-top: 3rem;
+      color:rgb(0, 247, 255);
+    }
+
+    .main-images img{
+      height:auto;
+      width: 100%;
+    }
+
 }
