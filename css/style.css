@@ -119,6 +119,7 @@
   font-weight: bold;
   width:100%;
   font-size: 5vw;
+  padding-top: 5rem;
 }
 
 .icons-style {
@@ -127,7 +128,7 @@
 
 .icons-style a {
   padding: 2%;
-  font-size:2em;
+  font-size:3rem;
 }
 
 .footerbgimage {  
